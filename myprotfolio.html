@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styleprot.css">
+    <title>Portfolio || Nader</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark " style="background-color: var(--bs-teal);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                  nader chargui
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active fs-5" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 me-3" href="contact.html">contact</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link fs-5 me-3" href="myprotfolio.html" tabindex="-1" aria-disabled="true">myprotfolio</a>
+              </li>
+                    
+              <li class="nav-item">
+                <a class="nav-link fs-5 me-3" href="about.html" tabindex="-1" aria-disabled="true">about</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+      <!-- end nav -->
+
+      <!-- start home -->
+    <section class="home">
+      <div class="container">
+    <div class="row align-items-center" style="height: 100vh;">
+        <div class="col text-center">
+            <h1 class="display-3 text-light">
+                this is me
+
+            </h1>
+            <a href="#" class="btn btn-outline-light rounded-pill pe-3 ps-3 pt-2 mt-5 pb-2">Check our Portfolio</a>
+        </div>
+    </div>
+</div>
+    </section>
+
+
+    <!-- end home -->
+
+    <!-- start about  -->
+<section class="about bg-light pt-5 pb-5">
+<div class="container">
+    <div class="row justify-content-center text-center">
+        <div class="col-4 display-4 text-dark" style="border-bottom: 3px solid  rgba(29, 224, 153, 0.8);">
+            About Us
+        </div>
+        <p class="text-muted mt-3" >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat incidunt architecto voluptate adipisci voluptas minima suscipit sit cum! Atque labore exercitationem provident aut, nesciunt earum totam ut! Amet, nostrum.
+        </p>
+    </div>
+    <div class="row mt-4">
+<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <img src="images/protf/about-img.jpg" class="img-fluid rounded" alt="">
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <h1 class="display-5 text-muted fw-bold">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+    </h1>
+    <h1 class="display-6 d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quidem ducimus quasi sint doloribus
+
+    </h1>
+    <ul class="list-unstyled">
+<li class="mt-2">Lorem ipsum dolor sit amet consectetur,
+</li>
+<li class="mt-2">Lorem ipsum dolor sit amet consectetur,
+</li>
+<li class="mt-2">Lorem ipsum dolor sit amet consectetur,
+</li>
+<li class="mt-2">Lorem ipsum dolor sit amet consectetur,
+</li>
+    </ul>
+</div>
+    </div>
+</div>
+</section>
+
+<!-- end about section -->
+
+
+
+<section class="features mt-5 mb-5">
+<div class="container">
+
+    <div class="row align-items-center">
+<div class="col-lg-4 col-md-4 col-12 text-center text-md-start text-lg-start text-xl-start text-xxl-start">
+    <img src="images/protf/product-features.png" class="img-fluid" alt="" srcset="">
+</div>
+<div class="col-lg-8 col-md-8 col-12">
+  
+    <div class="container-fluid">
+        <div class="row text-center mb-5" >
+            <div class="display-3 pb-4" style="border-bottom: 3px solid  rgba(29, 224, 153, 0.8);">Product Features      <span type="button" class="btn btn-danger rounded-pill fw-bolder fs-2" id="liveToastBtn">News</span></div>
+       
+
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+              <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row text-center justify-content-evenly ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="lightgreen" class="bi bi-alarm" viewBox="0 0 16 16">
+                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                  </svg>
+                  <p class="lead" style="font-family: var(--bs-font-monospace);">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aperiam sunt enim et .
+
+                  </p>
+                  <div class="w-100">
+
+                  </div>
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="lightgreen" class="bi bi-alarm" viewBox="0 0 16 16">
+                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                  </svg>
+                  <p class="lead" style="font-family: var(--bs-font-monospace);">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aperiam sunt enim et .
+
+                  </p>
+                  
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="lightgreen" class="bi bi-alarm" viewBox="0 0 16 16">
+                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                  </svg>
+                  <p class="lead" style="font-family: var(--bs-font-monospace);">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aperiam sunt enim et .
+
+                  </p>
+                  <div class="w-100">
+
+                  </div>
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="lightgreen" class="bi bi-alarm" viewBox="0 0 16 16">
+                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                  </svg>
+                  <p class="lead" style="font-family: var(--bs-font-monospace);">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aperiam sunt enim et .
+
+                  </p>
+                  
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+</section>
+
+
+<section class="features__2 pt-5 pb-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-6 col-12">
+                <h1 class="display-5 text-muted fw-bold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            
+                </h1>
+                <h1 class="display-6 d-md-none d-none d-sm-none d-lg-block d-xl-block d-xxl-block d-block">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quidem ducimus quasi sint doloribus
+            
+                </h1>
+                <ul class="list-unstyled">
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+                </ul>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Subscribe
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Subscribe
+        </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" placeholder="Yossef Ayman" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" placeholder="Zedan" id="validationCustom02" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+           
+               
+                <div class="col-md-12">
+                  <label for="validationCustom03" class="form-label">City</label>
+                  <textarea type="text" class="form-control" id="validationCustom03" required></textarea>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+               
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+              
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+            <button class="btn btn-primary" type="submit">Submit form</button>
+         
+        </form></div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <img src="advanced-feature-1.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="features__2 pt-5 pb-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <img src="images/protf/advanced-feature-2.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="col-lg-8 col-md-6 col-12">
+                <h1 class="display-5 text-muted fw-bold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            
+                </h1>
+                <h1 class="display-6 d-md-none d-none d-sm-none d-lg-block d-xl-block d-xxl-block d-block">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quidem ducimus quasi sint doloribus
+            
+                </h1>
+                <ul class="list-unstyled">
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+<section class="features__2 pt-5 pb-5 bg-light">
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-lg-8 col-md-6 col-12">
+                <h1 class="display-5 text-muted fw-bold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            
+                </h1>
+                <h1 class="display-6 d-md-none d-none d-sm-none d-lg-block d-xl-block d-xxl-block d-block">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quidem ducimus quasi sint doloribus
+            
+                </h1>
+                <ul class="list-unstyled">
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur,
+            </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <img src="images/protf/advanced-feature-3.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features__3 pt-5 pb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class=" table-responsive  ">
+                    <table class="table caption-top table-striped table-hover">
+                        <caption>List of users</caption>
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <figure>
+                    <blockquote class="blockquote">
+                      <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end  -->
+
+<section class="contact bg-light">
+    <div class="container pt-5 pb-5">
+<div class="row align-items-center">
+    <div class="col-lg-4 mb-5 col-md-6">
+        <h1 class="display-3" style="color: rgba(29, 224, 153, 0.8);">
+            Portfolio
+
+        </h1>
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae soluta suscipit ipsa quas quod officia dolor, illo dignissimos, natus sit deserunt quasi sint, non ratione mollitia esse aliquam. Aliquam.
+
+
+        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)" class="bi me-3 bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)" class="bi me-3 bi-tweeter" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg> -->
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)"  class="bi me-3 bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+       
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)" class="bi me-3 bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-5">
+        <div class="mb-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)" class="bi bi-house" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>  A1  kasserine city</div>
+<div class="w-100">
+
+</div>
+<div class="mb-5">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)" class="bi bi-house" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+      </svg> email:charguinadar@gmail.com</div>
+  <div class="w-100">
+
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgba(29, 224, 153, 0.8)" class="bi bi-house" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+  </svg>  number:56148514
+    </div>
+    <div class="col-lg-4">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Nader" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Chargui" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <button class="btn btn-success w-100" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+    </div>
+</section>
+<style>
+    #successAlert {
+        display: none;
+    }
+</style>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#liveToastBtn').click(function() {
+                $('.toast').toast('show');
+            })
+        })
+        function animation() {
+            $('#successAlert').slideToggle("slow");
+        }
+    </script>
+<script>
+    
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

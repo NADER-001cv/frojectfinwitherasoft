@@ -1,0 +1,19 @@
+.call{
+    background-image: url(../images/tunis/tunis_lights.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+min-height: 510px;
+text-align: center;
+}
+
+.about .about_under{
+    border-bottom: 2px solid rgba(29, 224, 153, 0.8) !important;
+  
+} 
+.card-img{
+    height: 80% !important;
+}
+.card-img img{
+    height: 100% !important;
+}
